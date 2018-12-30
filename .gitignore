@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 env
 intro-to-pytorch/__pycache__
+convolutional-neural-networks/mnist-mlp/data/
