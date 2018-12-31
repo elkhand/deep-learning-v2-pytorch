@@ -2,3 +2,7 @@
 env
 intro-to-pytorch/__pycache__
 convolutional-neural-networks/mnist-mlp/data/
+convolutional-neural-networks/cifar-cnn/data/
+style-transfer/images/cnt.jpg
+style-transfer/images/nt.jpg
+style-transfer/images/snt.jpg
