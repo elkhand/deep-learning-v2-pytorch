@@ -161,3 +161,33 @@ jupyter notebook
 ```
 
 To exit the environment when you have completed your work session, simply close the terminal window.
+
+## Alternative: Setup with uv
+
+[uv](https://github.com/astral-sh/uv) is a fast Python package manager that can be used instead of pip for installing dependencies. You can also use uv to create and manage Python virtual environments.
+
+1. **Install uv** (if not already installed):
+    ```
+    curl -Ls https://astral.sh/uv/install.sh | sh
+	export PATH="$HOME/.local/bin:$PATH"
+    ```
+
+2. **Create and activate a Python environment with uv**:
+    ```
+    uv venv .venv
+    source .venv/bin/activate
+    ```
+
+    Alternatively, you can use `conda` or `python -m venv` as described above.
+
+3. **Install dependencies with uv**:
+    ```
+    uv pip install -r requirements.txt
+    ```
+
+4. **Launch Jupyter Notebook**:
+    ```
+    jupyter notebook
+    ```
+
+You can use uv in place of pip for faster installs and dependency resolution.
